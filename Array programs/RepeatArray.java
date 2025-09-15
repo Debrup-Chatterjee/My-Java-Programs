@@ -1,4 +1,4 @@
-public class test 
+public class RepeatArray
 {
      public static void main(String[] args) 
      {

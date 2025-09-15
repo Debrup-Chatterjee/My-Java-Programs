@@ -9,7 +9,7 @@ public class GenericClass4<T extends Number>
      {
           double sum=0.0;
           for(int i=0;i<arr.length;i++)
-          sum+=arr[i].doubleValue();
+               sum+=arr[i].doubleValue();
           return sum/arr.length;
      }
      public static void main(String[] args) 
@@ -24,7 +24,7 @@ public class GenericClass4<T extends Number>
 
           //String causes error as String does not fall under Number superclass
           String arr3[]={"1","2","3","4","5"};
-          GenericClass4<String> ob3=new GenericClass4<String>(arr3);
-          System.out.println("Average is: "+ob3.average());
+          //GenericClass4<String> ob3=new GenericClass4<String>(arr3);
+          //System.out.println("Average is: "+ob3.average());
      }
 }
